@@ -1,0 +1,16 @@
+{
+  "name": "learn-bulma",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@glidejs/glide": "^3.4.1",
+    "animate.css": "^3.7.2",
+    "bulma": "^0.8.0"
+  }
+}

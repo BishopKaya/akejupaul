@@ -1,0 +1,67 @@
+*,*:before,*:after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+.dropdown-content{
+    box-shadow: none;
+
+}
+.logo-font{
+    font-size: larger;
+}
+.mar{
+    padding: 0 2%;
+}
+nav{
+    padding: 0 2rem;
+}
+.welcome{
+    padding-top: 6rem;
+    padding-left: 4rem;
+}
+.welcome>h1{
+    font-size:70px;
+    font-weight: bolder;  
+}
+.welcome>h4{
+    font-size: 50px;   
+}
+.welcome>p{
+    font-weight: bold;
+}
+.welcome>span{
+    font-size: 14px;
+}
+.skillset{
+    padding: 0 4rem;
+}
+.skillset-h1{
+    font-size: 24px;
+    font-weight: bold;
+}
+body{
+    margin: 0;
+}
+.skill-logo{
+    margin:100px 0;
+}
+.card{
+    max-width: 50%;
+}
+.inspace{
+    padding: 1rem;
+}
+.nono{
+    font-size: 14px;
+    font-weight: bold;
+}
+.card .is-divider{
+    margin: 0;
+}
+
+.my-column>div{
+    margin:10px 20px;
+    
+}

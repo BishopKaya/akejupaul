@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Online sales</title>
+    <link rel="stylesheet" href="./node_modules/bulma/css/bulma.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar has-background-white">
+        <div class="navbar-brand">
+            <a href="" class="navbar-item">Toplato</a>
+            <a href="" class="navbar-burger burger" data-target="navMenu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+        </div>
+        <div class="navbar-menu" id="navMenu">
+            <div class="navbar-start">
+                <a href="" class="navbar-item is-active">Home</a>
+                <a href="" class="navbar-item " data-target="hello">Contact</a>
+                <a href="" class="navbar-item ">Gallery</a>
+                <a href="" class="navbar-item ">Info</a>
+            </div>
+            <div class="navbar-end">
+                <button class="button navbar-item">Login</button>
+            </div>
+        </div>
+    </nav>
+    <div class="tabs mar is-boxed">
+        <p class="logo-font">Toplato</p>
+        <ul class="is-right">
+            <li class="is-active"><a href="">Home</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Gallery</a></li>
+            <li><a href="">Info</a></li>
+            
+        </ul>
+    </div>
+    <div class="dropdown is-hoverable">
+        <div class="dropdown-trigger">
+            <button class="button"><span>Categories</span></button>
+        </div>
+        <div class="dropdown-menu" id="dropdown-menu" role="menu">
+            <div class="columns has-background-light">
+                <div class=" column is-half">
+                    <div class="dropdown-content has-background-light">
+                        <a href="" class="dropdown-item item is-active">Church template</a>
+                        <a href="" class="dropdown-item">Medical template</a>
+                        <a href="" class="dropdown-item">School template</a>
+                        <a href="" class="dropdown-item">Portfolio template</a>
+                        <a href="" class="dropdown-item">Food template</a>
+                    </div>
+                </div>
+                <div class="column is-half ">
+                    <div class="dropdown-content has-background-light">
+                        <a href="" class="dropdown-item item">Church template</a>
+                        <a href="" class="dropdown-item">Medical template</a>
+                        <a href="" class="dropdown-item">School template</a>
+                        <a href="" class="dropdown-item">Portfolio template</a>
+                        <a href="" class="dropdown-item">Food template</a>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="box">
+        <progress class="progress" value="75" max="100">15%</progress>
+        <progress class="progress is-primary" value="30" max="100">30%</progress>
+        <progress class="progress is-info" value="45" max="100">45%</progress>
+        <progress class="progress is-success" value="60" max="100">60%</progress>
+        <progress class="progress is-warning" value="75" max="100">75%</progress>
+        <progress class="progress is-danger" value="90" max="100">90%</progress>
+    </div>
+    <div class="columns is-multiline">
+        <div class="column is-5 notification">
+            <button class="delete"></button>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur rerum architecto, ut quam molestias magni perspiciatis doloremque cumque dicta asperiores!
+        </div>
+        <div class="column is-5 notification">
+            <button class="delete"></button>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur rerum architecto, ut quam molestias magni perspiciatis doloremque cumque dicta asperiores!
+        </div>
+    </div>
+    <div class="box">
+        <p class="has-text-centered">
+            <span class="tag is-primary">Holla</span>
+            <span class="tag is-danger">ReactNative</span>
+        </p>
+    </div>
+   <div class="field is-grouped is-good-multiline" id="hello">
+        <div class="tag has-addon">
+            <a href="" class="tag is-success">LoveLave</a>
+            <a href="" class="tag is-delete"></a>
+        </div>
+        <div class="tag has-addon">
+            <a href="" class="tag is-success">LoveLave</a>
+            <a href="" class="tag is-delete"></a>
+        </div>
+        <div class="tag has-addon">
+            <a href="" class="tag is-success">LoveLave</a>
+            <a href="" class="tag is-delete"></a>
+        </div>
+   </div>
+   <nav class="pagination" role="navigation">
+        <a href="" class="pagination-previous">Previous</a>
+        <a href="pagination-next">Next</a>
+        <ul class="pagination-list">
+            <li class="pagination-link">1</li>
+            <span class="pagination-ellipsis">&hellip;</span>
+            <li class="pagination-link is-current">5</li>
+        </ul>
+   </nav>
+   <div class="field has-addons">
+    <button class="button is-loading is-black control">Loading</button>
+    <button class="button is-loading is-danger control">Loading</button>
+   </div>
+   
+    <script src="mani.js"></script>
+</body>
+</html>
